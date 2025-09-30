@@ -1,39 +1,39 @@
-# Braccio AI – Robot care vede și sortează culori
+# Braccio AI – Robot care vede si sorteaza culori
 
 Acest proiect a fost realizat la **Code the Futures Hackathon @ Siemens (2025)**.  
-Scopul: să învățăm un braț robotic să recunoască obiecte colorate și să le mute în locul potrivit, combinând viziunea computerizată cu controlul robotic.
+Scopul: sa invatam un braț robotic sa recunoasca obiecte colorate si sa le mute in locul potrivit, combinand vederea artificiala cu bratul robotic.
 
 ---
 
 ## Ce face proiectul?
 
-1. Camera (Picamera2 pe Raspberry Pi) filmează obiectele de pe masă.  
-2. OpenCV detectează culorile (roșu, albastru, verde, galben, portocaliu, mov).  
-3. Python trimite prin serial către Arduino ce culoare a fost găsită.  
-4. Arduino controlează Braccio: brațul apucă obiectul și îl lasă la locul corespunzător.  
+1. Camera (Picamera2 pe Raspberry Pi) filmeaza obiectele de pe masa.  
+2. OpenCV detecteaza culorile (rosu, albastru, verde, galben, portocaliu, mov).  
+3. Python trimite prin serial catre Arduino ce culoare a fost gasita.  
+4. Arduino controlează Braccio: bratul apuca obiectul si il lasa la locul prestabilit.  
 
-Rezultatul este un sistem simplu de tip Pick & Place cu viziune și mișcare automată.
+Rezultatul este un sistem simplu de tip Pick & Place cu viziune si miacare automata.
 
 ---
 
 ## Demo
-![Demo](https://www.youtube.com/watch?v=S1vbpbrqfbk)
+[Video](https://www.youtube.com/watch?v=S1vbpbrqfbk)
 
 ### Poze
-- ![Poză 1](https://github.com/user-attachments/assets/8e117d26-3e5e-44b8-92d6-57c772ca3b3a)  
-- ![Poză 2](https://github.com/user-attachments/assets/4f2020c6-2a13-4674-bc30-23a6ddbf249e)  
-- ![Poză 3](https://github.com/user-attachments/assets/44a0e1a2-6c0a-47cc-b92a-2917104255f6)  
-- ![Poză 4](https://github.com/user-attachments/assets/cf960ba6-8a7c-420e-8b88-706ec7aa48ad)
+- ![Poza 1](https://github.com/user-attachments/assets/8e117d26-3e5e-44b8-92d6-57c772ca3b3a)  
+- ![Poza 2](https://github.com/user-attachments/assets/4f2020c6-2a13-4674-bc30-23a6ddbf249e)  
+- ![Poza 3](https://github.com/user-attachments/assets/44a0e1a2-6c0a-47cc-b92a-2917104255f6)  
+- ![Poza 4](https://github.com/user-attachments/assets/cf960ba6-8a7c-420e-8b88-706ec7aa48ad)
 ---
 
 ## Tehnologii folosite
 
-- Arduino UNO cu librăria oficială Braccio  
+- Arduino UNO cu libraria oficiala Braccio  
 - Braccio robotic arm (6 servomotoare)  
 - Raspberry Pi cu Python  
-- OpenCV pentru detecția de culori  
-- Picamera2 pentru captură video  
-- Comunicare serială între Raspberry Pi și Arduino  
+- OpenCV pentru detectia de culori  
+- Picamera2 pentru captura video  
+- Comunicare seriala intre Raspberry Pi si Arduino  
 
 ---
 
@@ -41,14 +41,14 @@ Rezultatul este un sistem simplu de tip Pick & Place cu viziune și mișcare aut
 
 ### 1. Arduino
 - Deschide Arduino IDE  
-- Încarcă codul din `arduino/braccio_pick_place.ino`  
-- Instalează librăria oficială **Braccio**  
+- Incarca codul din `robot/braccio.ino`  
+- Instaleaza libraria oficiala **Braccio**  
 
 ### 2. Raspberry Pi
 ```bash
 sudo apt update
 sudo apt install python3-opencv python3-picamera2 -y
-python3 vision/color_detect.py
+python3 ai/color_detect.py
 ```
 
 ### 3. Conexiuni
@@ -59,12 +59,12 @@ python3 vision/color_detect.py
 
 ## Culori detectate
 
-| Culoare    | Destinație |
+| Culoare    | Destinatie |
 |------------|------------|
-| Roșu       | Zona roșie |
-| Albastru   | Zona albastră |
+| Rosu       | Zona rosie |
+| Albastru   | Zona albastra |
 | Verde      | Zona verde |
-| Galben     | Zona galbenă |
+| Galben     | Zona galbena |
 | Portocaliu | Zona portocalie |
 | Mov        | Zona mov |
 
