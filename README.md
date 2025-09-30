@@ -20,10 +20,10 @@ Rezultatul este un sistem simplu de tip Pick & Place cu viziune și mișcare aut
 [Demo](https://www.youtube.com/watch?v=S1vbpbrqfbk)
 
 ### Poze
-- ![Poză 1](<img width="543" height="723" alt="image" src="https://github.com/user-attachments/assets/8e117d26-3e5e-44b8-92d6-57c772ca3b3a" />)  
-- ![Poză 2](<img width="578" height="743" alt="image" src="https://github.com/user-attachments/assets/4f2020c6-2a13-4674-bc30-23a6ddbf249e" />)  
-- ![Poză 3](<img width="847" height="763" alt="image" src="https://github.com/user-attachments/assets/44a0e1a2-6c0a-47cc-b92a-2917104255f6" />)  
-- ![Poză 4](<img width="1152" height="767" alt="image" src="https://github.com/user-attachments/assets/cf960ba6-8a7c-420e-8b88-706ec7aa48ad" />)
+- ![Poză 1](https://github.com/user-attachments/assets/8e117d26-3e5e-44b8-92d6-57c772ca3b3a)  
+- ![Poză 2](https://github.com/user-attachments/assets/4f2020c6-2a13-4674-bc30-23a6ddbf249e)  
+- ![Poză 3](https://github.com/user-attachments/assets/44a0e1a2-6c0a-47cc-b92a-2917104255f6)  
+- ![Poză 4](https://github.com/user-attachments/assets/cf960ba6-8a7c-420e-8b88-706ec7aa48ad)
 ---
 
 ## Tehnologii folosite
