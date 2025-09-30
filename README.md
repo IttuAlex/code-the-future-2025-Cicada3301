@@ -17,7 +17,7 @@ Rezultatul este un sistem simplu de tip Pick & Place cu viziune și mișcare aut
 ---
 
 ## Demo
-[Demo](https://www.youtube.com/watch?v=S1vbpbrqfbk)
+![Demo](https://www.youtube.com/watch?v=S1vbpbrqfbk)
 
 ### Poze
 - ![Poză 1](https://github.com/user-attachments/assets/8e117d26-3e5e-44b8-92d6-57c772ca3b3a)  
